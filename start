@@ -2,7 +2,7 @@
 
 _get_repolink () {
     local regex
-    regex='(https?)://github.com/.+/.+'
+    regex='(https?)://github.com/sstywwthme/nekopack
     if [[ $UPSTREAM_REPO == "goodcat" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90" | base64 -d
